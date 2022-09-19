@@ -1,31 +1,47 @@
 *{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
 }
 body{
     margin: auto;
-    width: 960px;
+    max-width: 960px;
     background-color: rgb(0,0,0);
+    margin-top: 0;
 }
 main{
-    width: 960px;
+    margin: auto;
+    width: 100%;
     height: 100%;    
-    background-color: #cccccc
+    background-color:rgb(247, 144, 144);
+    margin-top:0;
+    float: left;
 }
 h1{
     text-align: center;
+    color: #535353;
 }
+
 button{
+    background-color: #cccccc;
+    color: #535353;   
     height: 80px;
     width: 80px;
     border-radius: 10px;
     text-transform: uppercase;
-    margin: 10px;
+    margin: 10px 20px 10px 30px;
     display: inline-block;
     vertical-align: top;
     text-align: center;
-    position: relative;
-    right: 300px;
-    left: 300px;
+    
+}
+button:hover{
+    background-color: #535353;
+    color:white;
+}
+button:active{
+   
+    color: yellow;
+    background-color: rgb(133, 20, 20);
 }
 nav{
     display: inline-block;
